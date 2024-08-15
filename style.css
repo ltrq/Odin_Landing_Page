@@ -1,0 +1,193 @@
+html {
+	scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-hero,.header-header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header-header{
+    .header-logo{
+        font-size: 24px;
+        font-weight: bolder;
+        }
+        .header-links {
+            display: flex;
+            gap: 75px;
+            a{
+            text-decoration: none;
+            font-style: italic; 
+            font-weight: bold;
+            color: #F9FAF8;
+            }
+        }
+        .block-logo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 200px 20px 200px;
+        }
+        position: fixed;
+        width: 100%;
+}
+
+
+
+.block-awesome{
+    display: flex;
+    padding: 100px 100px 100px 100px;
+
+    flex-direction: row;
+}
+.block-hero{
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: column;
+    padding: 10px 150px 50px 150px;
+    .hero-title{
+        font-size: 48px;
+        font-weight: bolder;
+        padding-top: 100px;
+        padding-bottom: 10px;
+        padding-right: 200px;
+    }
+    .hero-text{
+        font-size: 18px;
+        color: #E5E7EB;
+        padding-bottom: 20px;
+        padding-right: 50px;
+    }
+    .header-button{
+        background-color: #3882F6;
+        color: #F9FAF8;
+        font-size: 16px;
+        border: none;
+        border-radius: 7px;
+        width: 100px;
+        height: 40px;
+        
+    }
+    
+}
+
+.block-hero-image{
+height: 480px;
+flex-basis:60%;
+}
+
+
+.info-title{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.block-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px 20px 200px;
+}
+.info-image{
+    width: 250px;
+    height: 250px;
+    border:#3882F6 10px solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.info-text{
+    width: 250px;
+    text-align: center;
+}
+
+.header-quote{
+    background-color: #E5E7EB;
+    background-image: url("./images/output-onlinegiftools.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 300px 400px 300px 400px;
+    margin-top: 100px;
+    .block-quote{
+        font-size: 36px;
+        font-weight: lighter;
+    }
+    .block-signature{
+        padding-top: 20px;
+        text-align: right;
+        font-weight: bold;
+        font-size: 24px;
+    }
+}
+
+.header-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 550px 0px 50px 0px;
+    background-image: url("./images/odin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 80%;
+}
+.action-card{
+    display:flex;
+    background-color: #3882F6;
+    opacity: 0.8;
+    height: 40%;
+    width: 75%;
+    border-radius: 10px;
+    padding: 50px 100px 50px 100px;
+    align-items: center;
+    justify-content: space-between;
+    .block-action{
+        color: #F9FAF8;
+        font-size: 24px;
+        margin-left: 100px;
+        .action-title{
+            font-weight: bolder;
+            padding-bottom: 10px;
+        }
+        .action-text{
+            font-style: italic;
+        }
+    }
+    .action-button{
+        background-color: #3882F6;
+        opacity: 0.9;
+        color: #F9FAF8;
+        border: 2px solid white;
+        border-radius: 7px;
+        width: 150px;
+        height: 60px;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-right: 50px;
+    }
+}
+
+.header-footer{
+    background-color: #1F2937;
+    .footer-text{
+        color: #F9FAF8;
+        text-align: center;
+        padding: 40px;
+        font-size: 16px;
+        font-style:italic;
+    }
+}
+.back-to-top{
+    text-align: center;
+    padding: 20px;
+    background-color: #1F2937;
+    a{
+        text-decoration: none;
+        color: #F9FAF8;
+    }
+}
